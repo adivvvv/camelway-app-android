@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sc_shop_short">Butik</string>
+    <string name="sc_shop_long">Butik</string>
+
+    <string name="sc_cart_short">Kundvagn</string>
+    <string name="sc_cart_long">Min kundvagn</string>
+
+    <string name="sc_contact_short">Kontakt</string>
+    <string name="sc_contact_long">Kontakt</string>
+
+    <string name="sc_cm300_short">Kamelmjölk 300 g</string>
+    <string name="sc_cm300_long">Kamelmjölk 300 g</string>
+</resources>

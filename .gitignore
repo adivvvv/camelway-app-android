@@ -1,0 +1,60 @@
+# --- Android / Gradle ---
+*.iml
+.gradle/
+**/local.properties
+/.idea/
+.cxx/
+captures/
+build/
+*/build/
+*.log
+
+# Android Studio / VS Code junk
+/.classpath
+/.project
+/.settings/
+.vscode/
+*.swp
+
+# --- Outputs --- 
+*.apk
+*.ap_
+*.aab
+*.aar
+*.apks
+/app/release/
+/app/debug/
+
+# --- Bubblewrap / cache (if ever present in repo by mistake) ---
+/.bubblewrap/
+/.cache/
+
+# --- Signing / secrets ---
+# Keystores & certs (upload, debug, or Play-provided)
+*.jks
+*.keystore
+*.keystore.lock
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+keystore.properties
+**/keystore/**
+/signing/**
+
+# Play Console / service accounts
+**/service-account.json
+**/play-*.json
+**/google-play/**
+
+# Env / secrets files
+.env
+.env.*
+secrets.*
+secrets/**
+
+# --- OS / misc ---
+.DS_Store
+Thumbs.db

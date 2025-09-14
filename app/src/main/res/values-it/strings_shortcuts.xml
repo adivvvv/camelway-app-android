@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sc_shop_short">Negozio</string>
+    <string name="sc_shop_long">Negozio</string>
+
+    <string name="sc_cart_short">Carrello</string>
+    <string name="sc_cart_long">Il mio carrello</string>
+
+    <string name="sc_contact_short">Contatto</string>
+    <string name="sc_contact_long">Contatto</string>
+
+    <string name="sc_cm300_short">Latte di cammella 300 g</string>
+    <string name="sc_cm300_long">Latte di cammella 300 g</string>
+</resources>

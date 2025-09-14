@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sc_shop_short">Shop</string>
+    <string name="sc_shop_long">Shop</string>
+
+    <string name="sc_cart_short">Cart</string>
+    <string name="sc_cart_long">My shopping cart</string>
+
+    <string name="sc_contact_short">Contact</string>
+    <string name="sc_contact_long">Contact</string>
+
+    <string name="sc_cm300_short">Camel Milk 300g</string>
+    <string name="sc_cm300_long">Camel Milk 300g</string>
+</resources>

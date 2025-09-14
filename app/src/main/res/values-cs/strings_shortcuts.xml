@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sc_shop_short">Obchod</string>
+    <string name="sc_shop_long">Obchod</string>
+
+    <string name="sc_cart_short">Košík</string>
+    <string name="sc_cart_long">Můj košík</string>
+
+    <string name="sc_contact_short">Kontakt</string>
+    <string name="sc_contact_long">Kontakt</string>
+
+    <string name="sc_cm300_short">Velbloudí mléko 300 g</string>
+    <string name="sc_cm300_long">Velbloudí mléko 300 g</string>
+</resources>

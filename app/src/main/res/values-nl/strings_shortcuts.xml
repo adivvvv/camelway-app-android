@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sc_shop_short">Winkel</string>
+    <string name="sc_shop_long">Winkel</string>
+
+    <string name="sc_cart_short">Winkelwagen</string>
+    <string name="sc_cart_long">Mijn winkelwagen</string>
+
+    <string name="sc_contact_short">Contact</string>
+    <string name="sc_contact_long">Contact</string>
+
+    <string name="sc_cm300_short">Kamelenmelk 300 g</string>
+    <string name="sc_cm300_long">Kamelenmelk 300 g</string>
+</resources>

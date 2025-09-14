@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sc_shop_short">Kauppa</string>
+    <string name="sc_shop_long">Kauppa</string>
+
+    <string name="sc_cart_short">Ostoskori</string>
+    <string name="sc_cart_long">Ostoskorini</string>
+
+    <string name="sc_contact_short">Yhteys</string>
+    <string name="sc_contact_long">Yhteystiedot</string>
+
+    <string name="sc_cm300_short">Kamelinmaito 300 g</string>
+    <string name="sc_cm300_long">Kamelinmaito 300 g</string>
+</resources>

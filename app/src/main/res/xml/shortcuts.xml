@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <!-- Shop -->
+  <shortcut
+      android:shortcutId="shop"
+      android:enabled="true"
+      android:icon="@mipmap/ic_launcher"
+      android:shortcutShortLabel="@string/sc_shop_short"
+      android:shortcutLongLabel="@string/sc_shop_long">
+    <intent
+        android:action="android.intent.action.VIEW"
+        android:data="https://camelway.eu/pages/app-router?dest=shop" />
+  </shortcut>
+
+  <!-- My Shopping Cart -->
+  <shortcut
+      android:shortcutId="cart"
+      android:enabled="true"
+      android:icon="@mipmap/ic_launcher"
+      android:shortcutShortLabel="@string/sc_cart_short"
+      android:shortcutLongLabel="@string/sc_cart_long">
+    <intent
+        android:action="android.intent.action.VIEW"
+        android:data="https://camelway.eu/pages/app-router?dest=cart" />
+  </shortcut>
+
+  <!-- Contact -->
+  <shortcut
+      android:shortcutId="contact"
+      android:enabled="true"
+      android:icon="@mipmap/ic_launcher"
+      android:shortcutShortLabel="@string/sc_contact_short"
+      android:shortcutLongLabel="@string/sc_contact_long">
+    <intent
+        android:action="android.intent.action.VIEW"
+        android:data="https://camelway.eu/pages/app-router?dest=contact" />
+  </shortcut>
+
+  <!-- Camel Milk 300g product -->
+  <shortcut
+      android:shortcutId="camel_milk_300"
+      android:enabled="true"
+      android:icon="@mipmap/ic_launcher"
+      android:shortcutShortLabel="@string/sc_cm300_short"
+      android:shortcutLongLabel="@string/sc_cm300_long">
+    <intent
+        android:action="android.intent.action.VIEW"
+        android:data="https://camelway.eu/pages/app-router?dest=product&amp;path=products/camelway-camel-milk-powder-300g" />
+  </shortcut>
+
+</shortcuts>

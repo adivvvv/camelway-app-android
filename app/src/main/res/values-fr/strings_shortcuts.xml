@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sc_shop_short">Boutique</string>
+    <string name="sc_shop_long">Boutique</string>
+
+    <string name="sc_cart_short">Panier</string>
+    <string name="sc_cart_long">Mon panier</string>
+
+    <string name="sc_contact_short">Contact</string>
+    <string name="sc_contact_long">Contact</string>
+
+    <string name="sc_cm300_short">Lait de chamelle 300 g</string>
+    <string name="sc_cm300_long">Lait de chamelle 300 g</string>
+</resources>
