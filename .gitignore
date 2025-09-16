@@ -9,6 +9,11 @@ build/
 */build/
 *.log
 
+# Design folder
+.design/
+/.design/
+/.design
+
 # Android Studio / VS Code junk
 /.classpath
 /.project
