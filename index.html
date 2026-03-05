@@ -3,305 +3,239 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CamelWay | Producer of Premium Camel Milk Powder in Europe</title>
-    <meta name="description" content="Official technological hub for CamelWay Europe. Discover the science of Low-Temperature Spray Drying (LTSD), Bio-identical A2 Camel Milk, and our mobile health infrastructure.">
+    <title>CamelWay | Premium Camel Milk Powder & Chocolate - Producer in Europe</title>
+    <meta name="description" content="Official CamelWay Mobile App Hub. Buy pure camel milk powder and chocolates directly from the producer. Fast EU delivery, trusted since 2019.">
     
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
     <script>
         tailwind.config = {
             theme: {
                 extend: {
                     colors: {
-                        navy: '#111827',
-                        camel: '#C19A6B',
-                        sand: '#F9F8F6',
+                        brand: '#111827', // Navy
+                        accent: '#C19A6B', // Camel
+                        light: '#F9F8F6', // Sand
                     },
                     fontFamily: {
-                        serif: ['"Playfair Display"', 'serif'],
-                        sans: ['"Inter"', 'sans-serif'],
+                        sans: ['Inter', 'sans-serif'],
                     }
                 }
             }
         }
     </script>
-    <style>
-        .glass-nav { background: rgba(255, 255, 255, 0.98); border-bottom: 1px solid rgba(0,0,0,0.05); }
-        .hero-pattern { background-color: #111827; background-image: radial-gradient(circle at top right, rgba(193, 154, 107, 0.15), transparent); }
-        .no-scrollbar::-webkit-scrollbar { display: none; }
-    </style>
 </head>
-<body class="font-sans text-gray-800 antialiased bg-sand/30 selection:bg-camel selection:text-white">
+<body class="font-sans text-gray-900 bg-white antialiased">
 
-    <nav class="fixed w-full z-50 glass-nav shadow-sm">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center h-20">
-                <a href="/" class="flex flex-col">
-                    <span class="font-serif text-2xl font-bold text-navy tracking-tight">CamelWay <span class="italic text-camel">Tech</span></span>
-                    <span class="text-[9px] uppercase tracking-widest text-camel font-bold">Scientific Infrastructure</span>
-                </a>
-                <div class="hidden lg:flex items-center space-x-8 text-xs font-bold uppercase tracking-widest">
-                    <a href="#about" class="text-gray-600 hover:text-camel transition">About Us</a>
-                    <a href="#technology" class="text-gray-600 hover:text-camel transition">LTSD Tech</a>
-                    <a href="#health" class="text-gray-600 hover:text-camel transition">Health Benefits</a>
-                    <a href="#research" class="text-gray-600 hover:text-camel transition">Research</a>
-                    <a href="https://camelway.eu" target="_blank" class="bg-navy text-white px-6 py-2.5 rounded-sm hover:bg-gray-800 transition shadow-md">Buy Camel Milk</a>
-                </div>
+    <div class="bg-brand text-white text-[11px] py-2 text-center uppercase tracking-widest font-bold">
+        Express EU Shipping * Risk-Free Returns * Trusted Since 2019
+    </div>
+
+    <nav class="sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 h-16 flex justify-between items-center">
+            <div class="flex items-center">
+                <span class="text-xl font-bold tracking-tighter text-brand uppercase">CamelWay</span>
+            </div>
+            <div class="hidden md:flex space-x-8 text-xs font-bold uppercase tracking-widest text-gray-600">
+                <a href="#products" class="hover:text-accent transition">Products</a>
+                <a href="#about" class="hover:text-accent transition">About Us</a>
+                <a href="#science" class="hover:text-accent transition">Science</a>
+                <a href="https://camelway.eu" target="_blank" class="text-brand border-b-2 border-accent">Shop Online</a>
             </div>
         </div>
     </nav>
 
-    <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 hero-pattern text-white">
-        <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-12 gap-12 items-center">
-            <div class="lg:col-span-7">
-                <div class="inline-flex items-center gap-3 border border-camel/30 bg-camel/10 px-4 py-2 rounded-full mb-8">
-                    <span class="w-2 h-2 rounded-full bg-camel animate-pulse"></span>
-                    <span class="text-[10px] md:text-xs font-bold tracking-widest uppercase text-camel tracking-[0.2em]">Trusted Since 2019</span>
-                </div>
-                <h1 class="font-serif text-4xl sm:text-5xl lg:text-7xl font-bold leading-tight mb-6">
-                    Producer of <span class="italic text-camel">Premium Camel Milk</span> in Europe.
+    <section class="relative bg-light py-20 lg:py-32 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center relative z-10">
+            <div>
+                <h1 class="text-4xl lg:text-6xl font-bold text-brand leading-tight mb-6">
+                    Producer of Premium <br><span class="text-accent">Camel Milk</span> in Europe.
                 </h1>
-                <p class="text-base lg:text-xl text-gray-300 font-light leading-relaxed mb-10 max-w-2xl">
-                    Sourced from certified Dubai farms. Finished in EU facilities. We don't just sell camel milk — <strong class="text-white font-medium">we produce it</strong> to higher standards using advanced Low-Temperature processing.
+                <p class="text-lg text-gray-600 mb-10 leading-relaxed max-w-xl">
+                    Buy pure camel milk powder directly from the producer. Sourced from certified farms in Dubai, finished in EU facilities. 100% pure, no fillers.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4">
-                    <a href="https://play.google.com/store/apps/details?id=eu.camelway.twa" target="_blank" class="bg-camel text-white text-center px-8 py-4 rounded-sm font-bold uppercase tracking-widest text-xs hover:bg-[#a37c4d] transition shadow-xl shadow-camel/30">
-                        <i class="fa-brands fa-google-play mr-2"></i> Download Tech App
-                    </a>
-                    <a href="#technology" class="border border-white/20 text-center px-8 py-4 rounded-sm font-bold uppercase tracking-widest text-xs hover:bg-white hover:text-navy transition">Discover LTSD Science</a>
+                    <a href="https://camelway.eu" target="_blank" class="bg-brand text-white text-center px-10 py-4 rounded font-bold uppercase tracking-widest text-xs hover:bg-gray-800 transition shadow-lg">Buy Camel Milk Now</a>
+                    <a href="https://play.google.com/store/apps/details?id=eu.camelway.twa" target="_blank" class="border-2 border-brand text-brand text-center px-10 py-4 rounded font-bold uppercase tracking-widest text-xs hover:bg-brand hover:text-white transition">Download App</a>
                 </div>
             </div>
-            <div class="lg:col-span-5 flex justify-center">
-                <div class="relative w-full max-w-sm">
-                    <div class="absolute inset-0 bg-camel/20 rounded-full blur-3xl"></div>
-                    <div class="flex gap-4 overflow-x-auto no-scrollbar snap-x pb-8">
-                        <img src="img/screen1.png" class="h-[450px] rounded-3xl shadow-2xl border-4 border-navy/50 snap-center" alt="CamelWay App Overview">
-                        <img src="img/screen2.png" class="h-[450px] rounded-3xl shadow-2xl border-4 border-navy/50 snap-center" alt="Product Tracking">
-                    </div>
+            <div class="relative flex justify-center">
+                <div class="flex gap-4 overflow-x-auto no-scrollbar snap-x pb-4">
+                    <img src="img/screen1.png" class="h-[450px] rounded-xl shadow-2xl snap-center" alt="CamelWay App">
+                    <img src="img/screen2.png" class="h-[450px] rounded-xl shadow-2xl snap-center" alt="Order Tracking">
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="py-12 bg-white border-y border-gray-100">
+    <section class="py-10 bg-white border-b border-gray-100">
         <div class="max-w-7xl mx-auto px-6">
-            <div class="flex flex-wrap justify-center gap-8 md:gap-16 opacity-60 grayscale hover:grayscale-0 transition duration-500">
-                <span class="flex items-center gap-2 font-bold text-navy"><i class="fa-solid fa-certificate text-camel"></i> ISO CERTIFIED</span>
-                <span class="flex items-center gap-2 font-bold text-navy"><i class="fa-solid fa-shield-halved text-camel"></i> EU PERMIT</span>
-                <span class="flex items-center gap-2 font-bold text-navy"><i class="fa-solid fa-leaf text-camel"></i> NON-GMO FEED</span>
-                <span class="flex items-center gap-2 font-bold text-navy"><i class="fa-solid fa-flask text-camel"></i> BRC GLOBAL STANDARDS</span>
-            </div>
-        </div>
-    </section>
-
-    <section id="technology" class="py-24 px-6 bg-sand/20">
-        <div class="max-w-7xl mx-auto">
-            <div class="grid lg:grid-cols-2 gap-16 items-center">
-                <div>
-                    <span class="text-[10px] font-bold tracking-[0.3em] uppercase text-camel mb-4 block underline decoration-camel underline-offset-8">Proprietary Technology</span>
-                    <h2 class="font-serif text-4xl lg:text-5xl font-bold text-navy mb-8 leading-tight">Low-Temperature Spray Drying (LTSD)</h2>
-                    <p class="text-gray-600 mb-6 leading-relaxed">
-                        Most camel milk powders lose their therapeutic properties through brutal high-heat processing (>180°C). At CamelWay, we protect the <strong>"White Gold"</strong>.
-                    </p>
-                    <div class="space-y-6">
-                        <div class="flex gap-4">
-                            <div class="w-12 h-12 shrink-0 bg-white rounded shadow-sm flex items-center justify-center text-camel text-xl italic font-serif">Lf</div>
-                            <div>
-                                <h4 class="font-bold text-navy">Lactoferrin Preservation</h4>
-                                <p class="text-sm text-gray-500 italic">Retaining >99% of native tertiary structure to ensure active iron chelation and antibacterial action.</p>
-                            </div>
-                        </div>
-                        <div class="flex gap-4">
-                            <div class="w-12 h-12 shrink-0 bg-white rounded shadow-sm flex items-center justify-center text-camel text-xl italic font-serif">Ex</div>
-                            <div>
-                                <h4 class="font-bold text-navy">Exosomal Integrity</h4>
-                                <p class="text-sm text-gray-500 italic">Protecting the delicate lipid bilayers of exosomes containing miR-148a-3p for effective colonic epigenetic modulation.</p>
-                            </div>
-                        </div>
-                    </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div class="flex flex-col items-center">
+                    <i class="fa-solid fa-truck-fast text-2xl text-accent mb-3"></i>
+                    <span class="text-[10px] font-bold uppercase tracking-widest">Express Shipping</span>
                 </div>
-                <div class="bg-navy p-10 rounded-sm shadow-2xl text-white">
-                    <h3 class="font-serif text-2xl mb-6 italic text-camel">Scientific Reality Check:</h3>
-                    <div class="space-y-6">
-                        <div class="border-l-2 border-camel/30 pl-6">
-                            <p class="text-xs uppercase tracking-widest text-gray-400 mb-2">High-Heat Drying</p>
-                            <p class="text-sm italic">Destroys IgG, denatures Lactoferrin, and triggers the Maillard reaction, causing a "burnt" taste and nutrient loss.</p>
-                        </div>
-                        <div class="border-l-2 border-gray-600 pl-6">
-                            <p class="text-xs uppercase tracking-widest text-gray-400 mb-2">Freeze-Drying (Lyophilization)</p>
-                            <p class="text-sm italic">High risk of cryodamage to extracellular vesicles; poor solubility and rapid lipid oxidation during storage.</p>
-                        </div>
-                        <div class="border-l-2 border-camel pl-6 bg-white/5 py-4">
-                            <p class="text-xs font-bold uppercase tracking-widest text-camel mb-2">CamelWay™ LTSD</p>
-                            <p class="text-sm font-medium">Uniform microspheres. Instant solubility. Bio-identical to fresh milk. Pure quality, no fillers.</p>
-                        </div>
-                    </div>
+                <div class="flex flex-col items-center">
+                    <i class="fa-solid fa-rotate-left text-2xl text-accent mb-3"></i>
+                    <span class="text-[10px] font-bold uppercase tracking-widest">Risk-Free Returns</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <i class="fa-solid fa-microscope text-2xl text-accent mb-3"></i>
+                    <span class="text-[10px] font-bold uppercase tracking-widest">EU Tested Quality</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <i class="fa-solid fa-check-double text-2xl text-accent mb-3"></i>
+                    <span class="text-[10px] font-bold uppercase tracking-widest">Trusted Since 2019</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="health" class="py-24 px-6 bg-white">
-        <div class="max-w-7xl mx-auto">
-            <div class="text-center mb-20">
-                <h2 class="font-serif text-4xl font-bold text-navy mb-4">Evidence-Based Clinical Applications</h2>
-                <p class="text-gray-500 max-w-2xl mx-auto">Supporting neurodiversity, metabolic health, and immunity since 2019.</p>
-            </div>
-            
+    <section id="products" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-brand mb-16">Shop Our Best Sellers</h2>
             <div class="grid md:grid-cols-3 gap-10">
-                <div class="flex flex-col">
-                    <div class="h-64 mb-6 overflow-hidden rounded-sm">
-                        <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-700" alt="Neurological Support">
-                    </div>
-                    <h3 class="font-serif text-2xl font-bold text-navy mb-4">Autism & GFCF Diets</h3>
-                    <p class="text-gray-600 text-sm leading-relaxed mb-6">
-                        Standard dairy contains A1-casein, releasing inflammatory <strong>BCM-7 (Beta-Casomorphin-7)</strong>. Camel milk is naturally <strong>A2-Casein Free</strong>, making it the bio-identical choice for neuro-support and sealing the leaky gut.
-                    </p>
-                    <a href="https://camelway.eu/pages/autism-and-camel-milk" class="text-camel font-bold text-xs uppercase tracking-widest hover:underline">Read Clinical Summary &rarr;</a>
+                <div class="group border border-gray-100 p-6 rounded-lg hover:shadow-xl transition flex flex-col items-center text-center">
+                    <span class="bg-accent text-white text-[9px] font-bold px-3 py-1 rounded-full mb-4 uppercase">Free Shipping!</span>
+                    <h3 class="font-bold text-brand mb-2">CamelWay™ Camel Milk Powder (300g)</h3>
+                    <p class="text-sm text-gray-500 mb-4 italic">Yields 3 Liters of Fresh Milk</p>
+                    <div class="text-xl font-bold text-brand mb-6">€63,95 <span class="text-sm text-gray-400 line-through">€79,95</span></div>
+                    <a href="https://camelway.eu" target="_blank" class="w-full bg-brand text-white py-3 rounded text-[10px] font-bold uppercase tracking-widest hover:bg-gray-800 transition">Add to Cart</a>
                 </div>
-
-                <div class="flex flex-col">
-                    <div class="h-64 mb-6 overflow-hidden rounded-sm">
-                        <img src="https://images.unsplash.com/photo-1576089172869-4f5f6f315620?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-700" alt="Diabetes Research">
-                    </div>
-                    <h3 class="font-serif text-2xl font-bold text-navy mb-4">Glycemic Management</h3>
-                    <p class="text-gray-600 text-sm leading-relaxed mb-6">
-                        Contains approx. <strong>52 Units/Liter of insulin-like proteins</strong> encapsulated in protective lipid vesicles. Clinical trials (DOI 10.5281/zenodo.17184240) report significant improvements in HbA1c and lipid profiles.
-                    </p>
-                    <a href="https://camelway.eu/pages/diabetes-evidence" class="text-camel font-bold text-xs uppercase tracking-widest hover:underline">View Diabetes Data &rarr;</a>
+                <div class="group border border-gray-100 p-6 rounded-lg hover:shadow-xl transition flex flex-col items-center text-center">
+                    <span class="bg-accent text-white text-[9px] font-bold px-3 py-1 rounded-full mb-4 uppercase">Best Value</span>
+                    <h3 class="font-bold text-brand mb-2">CamelWay™ Family Pack (900g)</h3>
+                    <p class="text-sm text-gray-500 mb-4 italic">Makes 9 Liters of Fresh Milk</p>
+                    <div class="text-xl font-bold text-brand mb-6">€164,95 <span class="text-sm text-gray-400 line-through">€191,85</span></div>
+                    <a href="https://camelway.eu" target="_blank" class="w-full bg-brand text-white py-3 rounded text-[10px] font-bold uppercase tracking-widest hover:bg-gray-800 transition">Add to Cart</a>
                 </div>
-
-                <div class="flex flex-col">
-                    <div class="h-64 mb-6 overflow-hidden rounded-sm">
-                        <img src="https://images.unsplash.com/photo-1505944270255-bd2b896e7518?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-700" alt="Dermatology Support">
-                    </div>
-                    <h3 class="font-serif text-2xl font-bold text-navy mb-4">Eczema & Psoriasis</h3>
-                    <p class="text-gray-600 text-sm leading-relaxed mb-6">
-                        The <strong>"Gut-Skin Axis"</strong> solution. High natural concentrations of Lactoferrin and IgG modulate the immune response to reduce oxidative stress and inflammatory triggers like TNF-alpha.
-                    </p>
-                    <a href="https://camelway.eu/pages/eczema-psoriasis-clinical-evidence" class="text-camel font-bold text-xs uppercase tracking-widest hover:underline">Explore Dermatology &rarr;</a>
+                <div class="group border border-gray-100 p-6 rounded-lg hover:shadow-xl transition flex flex-col items-center text-center">
+                    <span class="bg-brand text-white text-[9px] font-bold px-3 py-1 rounded-full mb-4 uppercase">New</span>
+                    <h3 class="font-bold text-brand mb-2">Handmade Camel Milk Chocolate</h3>
+                    <p class="text-sm text-gray-500 mb-4 italic">44% Cocoa | Chilli or Sea Salt</p>
+                    <div class="text-xl font-bold text-brand mb-6">€8,95 <span class="text-sm text-gray-400 line-through">€12,95</span></div>
+                    <a href="https://camelway.eu" target="_blank" class="w-full bg-brand text-white py-3 rounded text-[10px] font-bold uppercase tracking-widest hover:bg-gray-800 transition">View Options</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="research" class="py-24 bg-navy text-white relative overflow-hidden">
-        <div class="absolute inset-0 opacity-10 flex items-center justify-center pointer-events-none">
-            <i class="fa-solid fa-flask-vial text-[40rem]"></i>
-        </div>
-        <div class="max-w-7xl mx-auto px-6 relative z-10 text-center">
-            <h2 class="font-serif text-4xl lg:text-5xl font-bold mb-12 italic text-camel">Scientific Integrity Hub</h2>
-            <div class="grid md:grid-cols-2 gap-8 text-left">
-                <div class="bg-white/5 border border-white/10 p-8 rounded-sm hover:bg-white/10 transition">
-                    <span class="text-[9px] font-bold text-camel uppercase tracking-[0.2em] mb-2 block">Harvard Dataverse | 2026</span>
-                    <h4 class="font-serif text-xl font-bold mb-4">Clinical Markers & Colitis Dataset</h4>
-                    <p class="text-sm text-gray-400 mb-6 italic leading-relaxed">Evaluation of miR-148a-3p delivery and mucosal regeneration via LTSD camel milk in IBD murine models.</p>
-                    <a href="https://doi.org/10.7910/DVN/TYP1LC" target="_blank" class="inline-block border-b border-camel text-camel text-xs font-bold py-1">DOI: 10.7910/DVN/TYP1LC</a>
+    <section id="about" class="py-24 bg-light">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-20 items-center">
+            <div>
+                <h2 class="text-3xl font-bold text-brand mb-8">We do more than sell camel milk - we produce it.</h2>
+                <div class="space-y-6 text-gray-600 leading-relaxed">
+                    <p>CamelWay is a producer and supplier based in Europe. We work with modern camel farms in Dubai where camels live in their natural desert environment.</p>
+                    <ul class="space-y-4">
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-check text-accent"></i> Certified Dubai farms (ISO, BRC, Halal)</li>
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-check text-accent"></i> Non-GMO feed & low stress animal care</li>
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-check text-accent"></i> Routine batch testing for heavy metals</li>
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-check text-accent"></i> EU compliant production and labeling</li>
+                    </ul>
                 </div>
-                <div class="bg-white/5 border border-white/10 p-8 rounded-sm hover:bg-white/10 transition">
-                    <span class="text-[9px] font-bold text-camel uppercase tracking-[0.2em] mb-2 block">Zenodo | Published Paper</span>
-                    <h4 class="font-serif text-xl font-bold mb-4">Gastrointestinal Pathology & Modulation</h4>
-                    <p class="text-sm text-gray-400 mb-6 italic leading-relaxed">Synthesis of multi-omic data from 2024–2026 regarding SCFA axis restoration and NF-κB suppression.</p>
-                    <a href="https://doi.org/10.5281/zenodo.18792722" target="_blank" class="inline-block border-b border-camel text-camel text-xs font-bold py-1">DOI: 10.5281/zenodo.18792722</a>
+                <div class="mt-10">
+                    <a href="https://camelway.eu/pages/about-us" target="_blank" class="text-brand font-bold uppercase tracking-widest text-[10px] border-b-2 border-accent pb-1">Learn More About Us</a>
+                </div>
+            </div>
+            <div class="bg-white p-10 rounded shadow-xl">
+                <h3 class="font-bold text-xl mb-6">Who chooses camel milk?</h3>
+                <div class="space-y-6">
+                    <div>
+                        <h4 class="font-bold text-accent text-sm uppercase mb-2">Autism & Families</h4>
+                        <p class="text-xs text-gray-500">Naturally A1-Casein Free & GFCF friendly support for gut-brain axis.</p>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-accent text-sm uppercase mb-2">Diabetes & Blood Sugar</h4>
+                        <p class="text-xs text-gray-500">Contains insulin-like proteins (52 U/L) supporting glycemic control.</p>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-accent text-sm uppercase mb-2">Lactose Intolerance</h4>
+                        <p class="text-xs text-gray-500">A gentle dairy alternative with a different protein structure than cow's milk.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="about" class="py-24 bg-white px-6">
-        <div class="max-w-7xl mx-auto text-center">
-            <span class="text-camel text-xs font-bold uppercase tracking-[0.3em] mb-4 block">Our Foundation</span>
-            <h2 class="font-serif text-4xl font-bold text-navy mb-16 underline decoration-camel/30 underline-offset-[12px]">Real People. Real Science.</h2>
+    <section class="py-24 bg-brand text-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-16 italic">CamelWay in your pocket.</h2>
             <div class="grid md:grid-cols-3 gap-12">
                 <div>
-                    <div class="w-32 h-32 bg-sand mx-auto rounded-full mb-6 flex items-center justify-center text-navy font-serif font-bold text-3xl italic border-4 border-camel/10">AW</div>
-                    <h4 class="font-bold text-lg">Adam Wadowski</h4>
-                    <p class="text-xs text-camel font-bold uppercase tracking-widest mb-2">Operations Lead</p>
-                    <p class="text-sm text-gray-500">Dubai sourcing & production architect. Sourcing directly from elite desert herds.</p>
+                    <i class="fa-solid fa-bolt text-3xl text-accent mb-6"></i>
+                    <h3 class="font-bold mb-4">One-Tap Ordering</h3>
+                    <p class="text-gray-400 text-sm">Refill your camel milk supply in seconds with saved preferences.</p>
                 </div>
                 <div>
-                    <div class="w-32 h-32 bg-navy mx-auto rounded-full mb-6 flex items-center justify-center text-camel font-serif font-bold text-3xl italic border-4 border-camel/30">AW</div>
-                    <h4 class="font-bold text-lg">Adrian Wadowski</h4>
-                    <p class="text-xs text-camel font-bold uppercase tracking-widest mb-2">Lead Researcher</p>
-                    <p class="text-sm text-gray-500">Tech architect & clinical science lead. Managing the <a href="https://adivv.pl" class="underline">Scientific Hub</a>.</p>
+                    <i class="fa-solid fa-location-dot text-3xl text-accent mb-6"></i>
+                    <h3 class="font-bold mb-4">Real-Time Tracking</h3>
+                    <p class="text-gray-400 text-sm">Follow your DHL Express or FedEx parcel from our EU warehouse to your door.</p>
                 </div>
                 <div>
-                    <div class="w-32 h-32 bg-sand mx-auto rounded-full mb-6 flex items-center justify-center text-navy font-serif font-bold text-3xl italic border-4 border-camel/10">AW</div>
-                    <h4 class="font-bold text-lg">Alan Wadowski</h4>
-                    <p class="text-xs text-camel font-bold uppercase tracking-widest mb-2">CEO</p>
-                    <p class="text-sm text-gray-500">Distribution & international B2B partnerships. Driving European expansion.</p>
+                    <i class="fa-solid fa-bell text-3xl text-accent mb-6"></i>
+                    <h3 class="font-bold mb-4">Exclusive App Offers</h3>
+                    <p class="text-gray-400 text-sm">Get early access to family pack discounts and new chocolate flavors.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="py-16 bg-sand/30 border-t border-gray-100">
-        <div class="max-w-5xl mx-auto px-6 text-center opacity-70 grayscale hover:grayscale-0 transition duration-500">
-            <div class="flex flex-col items-center gap-6">
-                <i class="fa-solid fa-flag-european-union text-5xl text-[#003399]"></i>
-                <div class="max-w-3xl">
-                    <p class="text-[10px] font-bold uppercase tracking-widest text-gray-500 mb-2">Project: Go to Brand (POIR.03.03.03-24-0166/20-00)</p>
-                    <p class="text-xs leading-relaxed italic">
-                        CamelWay Sp. z o.o. implements a project co-financed by European Funds (PLN 406,385.00) to internationalize the brand on foreign markets and establish leadership in the clinical camel milk category.
-                    </p>
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <div class="mb-12">
+                <div class="flex justify-center gap-1 text-accent mb-2">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <p class="font-bold text-brand uppercase tracking-widest text-xs">Trusted by 1,200+ families this month</p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-light p-8 rounded italic text-sm text-gray-600">
+                    "The milk is exceptional and so much better than cows milk. Also digestive system is much better!" - Marilia Ribau
+                </div>
+                <div class="bg-light p-8 rounded italic text-sm text-gray-600">
+                    "Amazing product! My baby has struggled with eczema and your camels milk has helped him lots." - Iris Rico Rodriguez
+                </div>
+                <div class="bg-light p-8 rounded italic text-sm text-gray-600">
+                    "As a diabetic, CamelWay camel milk has been a game-changer for my diet. Doesn’t upset my stomach." - Jack
                 </div>
             </div>
         </div>
     </section>
 
-    <footer class="bg-navy text-white pt-20 pb-10 px-6 border-t border-white/5">
-        <div class="max-w-7xl mx-auto grid md:grid-cols-4 gap-12 mb-16">
-            <div class="md:col-span-2">
-                <p class="font-serif text-3xl font-bold mb-4 tracking-tight">CamelWay <span class="italic text-camel italic">Europe</span></p>
-                <p class="text-gray-400 text-sm max-w-sm leading-relaxed mb-6 italic">
-                    Family-managed brand since 2019. We obsess over the details — from how our milk is collected in Dubai to how quickly it reaches your door. Pure quality, no hype.
-                </p>
-                <div class="flex gap-4">
-                    <a href="https://orcid.org/0009-0005-3393-7953" target="_blank" class="hover:text-camel transition text-xl"><i class="fa-brands fa-orcid"></i></a>
-                    <a href="https://www.linkedin.com/company/camelway" target="_blank" class="hover:text-camel transition text-xl"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://www.researchgate.net/profile/Adrian-Wadowski" target="_blank" class="hover:text-camel transition text-xl"><i class="fa-brands fa-researchgate"></i></a>
+    <section class="py-12 bg-white border-t border-gray-100">
+        <div class="max-w-4xl mx-auto px-6 flex flex-col items-center text-center opacity-60 grayscale hover:grayscale-0 transition duration-500">
+            <i class="fa-solid fa-flag-european-union text-4xl text-[#003399] mb-4"></i>
+            <p class="text-[10px] font-bold uppercase tracking-widest text-gray-500 mb-2">Project: Go to Brand (POIR.03.03.03-24-0166/20-00)</p>
+            <p class="text-[10px] italic">CamelWay Sp. z o.o. implements a project co-financed by European Funds to internationalize the brand on foreign markets. EU funding: PLN 406,385.00</p>
+        </div>
+    </section>
+
+    <footer class="bg-brand text-white py-20 px-6 border-t border-white/5">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-12">
+            <div>
+                <p class="text-2xl font-bold uppercase mb-4">CamelWay</p>
+                <p class="text-gray-500 text-xs leading-relaxed italic">Family-managed since 2019. Sourced from certified Dubai herds. Finished in EU facilities. Pure quality, no hype.</p>
+            </div>
+            <div class="flex flex-col space-y-4">
+                <h5 class="text-accent text-[10px] font-bold uppercase tracking-[0.2em]">Contact Us</h5>
+                <p class="text-xs text-gray-400">contact@camelway.eu</p>
+                <p class="text-xs text-gray-400">Katowice, Poland (EU)</p>
+            </div>
+            <div class="flex flex-col space-y-6 items-center md:items-end">
+                <a href="https://camelway.eu" target="_blank" class="bg-accent text-white px-8 py-3 rounded font-bold uppercase text-[10px] tracking-widest shadow-lg shadow-accent/20">Shop CamelWay.eu</a>
+                <div class="flex gap-4 text-gray-500">
+                    <a href="https://adivv.pl" target="_blank" class="hover:text-white transition" title="Scientific Lead"><i class="fa-solid fa-microscope"></i></a>
+                    <a href="https://orcid.org/0009-0005-3393-7953" target="_blank" class="hover:text-white transition"><i class="fa-brands fa-orcid"></i></a>
+                    <a href="https://play.google.com/store/apps/details?id=eu.camelway.twa" target="_blank" class="hover:text-white transition"><i class="fa-brands fa-google-play"></i></a>
                 </div>
             </div>
-            <div>
-                <h5 class="text-xs font-bold uppercase tracking-widest text-camel mb-6">Scientific Resources</h5>
-                <ul class="text-xs text-gray-500 space-y-3">
-                    <li><a href="https://camelway.eu/pages/diabetes-management-support" target="_blank" class="hover:text-white transition">Diabetes Evidence</a></li>
-                    <li><a href="https://camelway.eu/pages/autism-and-camel-milk" target="_blank" class="hover:text-white transition">Autism & BCM-7 Support</a></li>
-                    <li><a href="https://camelway.eu/pages/camel-milk-lactoferrin-gut-repair" target="_blank" class="hover:text-white transition">Lactoferrin Science</a></li>
-                    <li><a href="https://adivv.pl" target="_blank" class="hover:text-white transition">Research Log (adivv.pl)</a></li>
-                </ul>
-            </div>
-            <div>
-                <h5 class="text-xs font-bold uppercase tracking-widest text-camel mb-6">Direct Access</h5>
-                <ul class="text-xs text-gray-500 space-y-3">
-                    <li><a href="https://camelway.eu" target="_blank" class="hover:text-white transition">Buy Pure Powder (EU)</a></li>
-                    <li><a href="https://camelmilkwholesale.com" target="_blank" class="hover:text-white transition">B2B & Wholesale (10kg)</a></li>
-                    <li><a href="https://wielbladziemleko.pl" target="_blank" class="hover:text-white transition">Polska (wielbladziemleko.pl)</a></li>
-                    <li><a href="mailto:contact@camelway.eu" class="hover:text-white transition font-bold">contact@camelway.eu</a></li>
-                </ul>
-            </div>
         </div>
-        <div class="max-w-7xl mx-auto pt-8 border-t border-white/5 text-center">
-            <p class="text-[9px] text-gray-600 uppercase tracking-[0.4em] font-bold">
-                Copyright © 2026 CamelWay Europe • Advanced Nutrition • Bio-Identical Excellence
-            </p>
+        <div class="max-w-7xl mx-auto mt-16 pt-8 border-t border-white/5 text-center">
+            <p class="text-[9px] text-gray-700 uppercase tracking-[0.3em]">© 2026 CamelWay Europe | Bio-Identical Superfood | All Rights Reserved</p>
         </div>
     </footer>
 
-    <script>
-        // Mobile Navigation (if needed) and Smooth Scroll triggers
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-    </script>
 </body>
 </html>
