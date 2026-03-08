@@ -29,6 +29,7 @@ transparency and research-grade performance.
   research datasets.
 - **Live Hub & Analytics** [https://camelway-hub.vercel.app]: Real-time 
   integration dashboard on Vercel providing B2B/B2C inventory tracking.
+  **CamelWay Logistics** [https://camelway.netlify.app/]: Real-time shipping rates across 36 European markets.
   
 ---
 
