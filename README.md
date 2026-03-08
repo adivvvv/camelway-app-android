@@ -19,6 +19,19 @@ verifying the app ↔ site ownership via Digital Asset Links. :contentReference[
 
 ---
 
+## Live Data & Global Infrastructure
+
+This mobile application is part of a larger technical ecosystem designed for
+transparency and research-grade performance.
+
+- **Official API Gateway** [https://api.camelway.eu]: High-performance access to 
+  CamelWay production metrics, EU logistics matrix for 36 markets, and clinical 
+  research datasets.
+- **Live Hub & Analytics** [https://camelway-hub.vercel.app]: Real-time 
+  integration dashboard on Vercel providing B2B/B2C inventory tracking.
+  
+---
+
 ## Project structure
 
 app/
